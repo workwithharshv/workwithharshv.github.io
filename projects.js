@@ -1,0 +1,321 @@
+/* ==========================================================================
+   YOUR CONTENT LIVES HERE. Edit this file to update the site.
+   - SITE: your name, intro, contact links.
+   - PROJECTS: one block per project. Order here = order on the page.
+   Images and videos go in  assets/<slug>/ .
+   ========================================================================== */
+
+window.SITE = {
+  name: "Harsh Vaghasiya",
+  initials: "HV",
+  role: "Full-Stack & Mobile Developer",
+  headline: "Web platforms, mobile apps and AI features that ship.",
+  // Hero (first section)
+  heroTitle: ["From idea to ", "App Store", ", I build apps people actually use."],
+  heroIntro: "Flutter apps for iOS & Android, Laravel back ends and web dashboards, for logistics, kids, food delivery and fintech products.",
+  heroPills: [["📱", "Flutter apps"], ["⚙️", "Laravel APIs"], ["✨", "AI features"]],
+  heroNote: "",
+  heroBadge: "",
+  // Phones shown in the hero (Harsh design)
+  heroPhones: [
+    { slug: "truckguru", img: "assets/truckguru/03.webp" },
+    { slug: "fooddash", img: "assets/fooddash/03.webp" },
+    { slug: "finance", img: "assets/finance/02.webp" },
+    { slug: "saas", img: "assets/saas/05.webp" },
+  ],
+  heroShowcase: [
+    { slug: "truckguru", phone: "assets/truckguru/03.webp" },
+    { slug: "activikid" },
+    { slug: "fooddash", phone: "assets/fooddash/03.webp" },
+    { slug: "nexuscrm" },
+    { slug: "finance", phone: "assets/finance/02.webp" },
+    { slug: "saas", phone: "assets/saas/05.webp" },
+  ],
+  intro:
+    "I build Flutter apps for iOS and Android, Laravel back ends and web dashboards, for logistics, kids, food delivery and fintech products. You work directly with me, from the first call to launch.",
+  location: "Bhavnagar, Gujarat, India · IST (UTC+5:30)",
+
+  // Contact (leave "" to hide a link)
+  email: "",
+  whatsapp: "",
+  whatsappDisplay: "",
+  phone: "",
+  github: "",
+  upwork: "https://www.upwork.com/freelancers/harshv24",
+  linkedin: "",
+  introVideo: "https://youtu.be/MuXlrsinhm8",
+
+  industries: ["Logistics", "Kids & Education", "Food & Delivery", "FinTech", "B2B SaaS", "Sales & CRM"],
+
+  services: [
+    {
+      title: "Build",
+      tab: "A new app or platform",
+      icon: "🚀",
+      text: "New products, from first screen to store launch: mobile apps, web platforms and the API behind them.",
+      projects: ["truckguru", "fooddash", "saas", "nexuscrm"],
+      items: [
+        "Mobile apps in Flutter for iOS and Android, through store approval",
+        "Booking and logistics platforms with live tracking",
+        "SaaS and web apps: multi-tenant, subscriptions, dashboards",
+        "Laravel REST APIs with Stripe payments, maps and notifications",
+      ],
+    },
+    {
+      title: "Fix & upgrade",
+      tab: "Improve my existing app",
+      icon: "🛠️",
+      text: "Make the app you already have better. I review the code first and tell you honestly where it stands.",
+      items: [
+        "Bugs and crashes in Flutter or Laravel apps",
+        "New features on an existing codebase",
+        "Slow pages and APIs, broken payment webhooks",
+        "App Store and Google Play submission issues",
+      ],
+    },
+    {
+      title: "AI integration",
+      tab: "AI inside my product",
+      icon: "✨",
+      text: "Useful AI features inside real apps: recommendations, scanning and chat, built on the OpenAI API.",
+      projects: ["activikid", "finance"],
+      items: [
+        "AI recommendations and personalised matching",
+        "Receipt and document scanning with GPT-4o Vision",
+        "Chat that answers questions from your own data",
+        "OpenAI API inside Laravel and Flutter apps",
+      ],
+    },
+  ],
+
+
+
+  // Big spotlight rows at the top of the work section (in this order)
+  featured: ["truckguru", "activikid", "fooddash", "saas"],
+
+  faq: [
+    ["What's the first step?", "Send me a message on Upwork about what you want to build or fix. I'll ask a few questions, then send a short written plan with milestones, timeline and cost before any work starts."],
+    ["Do you work fixed-price or hourly?", "Both. Fixed price works best for a clearly scoped project or milestone. Hourly suits ongoing work, maintenance and rescues where the scope isn't clear yet."],
+    ["Can you take over a project another developer started?", "Yes, that's a big part of my work. I review the code first and tell you honestly what state it's in, then fix the most urgent problems before anything else."],
+    ["Who owns the code?", "You do. The code lives in your repository and runs on your servers and accounts, with documentation, so you're never locked in."],
+    ["Will you publish my app to the App Store and Google Play?", "Yes. I prepare the builds and store listings, take the app through review, and fix any rejection if it happens."],
+    ["How will we communicate?", "Directly with me, with no account managers in between: Upwork messages and video calls. I'm in India (IST) and schedule calls around your working hours."],
+    ["What happens after launch?", "Yes: deployment, monitoring, fixes and new features. Many clients stay on for ongoing work."],
+  ],
+
+  process: [
+    ["Understand", "We talk through your idea, users and must-haves, then agree on scope and budget.", "Clear scope"],
+    ["Design & prototype", "Key screens first, so you can see the app before it's built.", "Clickable prototype"],
+    ["Build & review", "Short build cycles with a working version to test every week.", "Weekly builds"],
+    ["Launch", "Store submission, deployment and fixes after go-live.", "Live app, your code"],
+  ],
+};
+
+window.PROJECTS = [
+  {
+    slug: "truckguru",
+    title: "TruckGuru",
+    subtitle: "Truck booking app & web, live tracking",
+    tagline: "Businesses book a full truck in minutes and track it end to end.",
+    tags: ["Mobile", "Web"],
+    role: "Full-Stack & Mobile Developer: Flutter + Laravel",
+    stack: ["Flutter", "Laravel", "React.js", "Live tracking", "OTP login", "SMS / WhatsApp / email"],
+    summary:
+      "TruckGuru is a live full-truckload (FTL) booking platform for businesses in India, with a website, a User app and a Partner app (100K+ downloads on Google Play). Shippers book a truck by pickup and delivery city with an upfront fare range, then manage quotes, bookings and invoices in one place. Transporters use the Partner app to find loads and manage trips, and every shipment is tracked live from order to delivery. The result: businesses book a truck in minutes and track it end to end.",
+    highlights: [
+      "Truck booking by pickup and delivery city with an upfront fare range",
+      "My Orders: quotes, status, edit or cancel a booking, invoices",
+      "Partner app for transporters to find loads and manage trips",
+      "Live shipment tracking from order to delivery",
+      "OTP login, with notifications via SMS, WhatsApp and email",
+      "Live on the web, App Store and Google Play (100K+ downloads)",
+    ],
+    links: [
+      ["Website", "https://truckguru.co.in/"],
+      ["App Store", "https://apps.apple.com/in/app/truckguru-truck-booking-app/id1425966954"],
+      ["Google Play", "https://play.google.com/store/apps/dev?id=8815883927356136846&hl=en_IN"],
+    ],
+    cover: "assets/truckguru/cover.webp",
+    images: [
+      ["01", "Fast, safe and reliable truck booking", "phone"],
+      ["02", "Sign in as a user or a partner", "phone"],
+      ["03", "Book a truck in minutes", "phone"],
+      ["04", "Track every order", "phone"],
+      ["05", "Partner app: manage trips", "phone"],
+      ["06", "Shipment tracking, step by step", "phone"],
+      ["07", "Website: book trucks online across India"],
+      ["08", "Website: live truck tracking"],
+      ["09", "Website: how it works"],
+      ["10", "Website: truck booking in major cities"],
+      ["11", "Website: full truckload services for businesses"],
+      ["12", "Website: strengths and advantages"],
+    ],
+  },
+  {
+    slug: "activikid",
+    title: "ActiviKid",
+    subtitle: "AI kids activity platform, live in Hong Kong",
+    tagline: "AI that matches every kid with the right activity, then handles booking and scheduling.",
+    tags: ["AI", "Mobile", "Web"],
+    role: "Full-Stack & Mobile Developer: Flutter + Laravel, AI integration",
+    stack: ["Flutter", "Laravel", "Livewire", "Vue.js", "REST API", "AI / NLP"],
+    summary:
+      "ActiviKid is an AI-powered platform that connects parents in Hong Kong with personalised activities for their kids. Parents create a profile for each child, and the platform recommends classes and activities that fit the child's age, interests and goals. Booking, scheduling and credits all happen in one place, replacing hours of manual searching. The Flutter app is live on iOS and Android, backed by a Laravel REST API.",
+    highlights: [
+      "Flutter mobile app, live on the App Store and Google Play",
+      "AI-powered activity recommendations using NLP",
+      "Personalised matching by age, interests and goals",
+      "Booking, scheduling and a credit system",
+      "Kid profiles with preference tracking",
+      "Laravel REST API backend",
+    ],
+    links: [
+      ["Website", "https://activikid.hk/"],
+      ["Google Play", "https://play.google.com/store/apps/details?id=hk.activikid&hl=en"],
+    ],
+    cover: "assets/activikid/cover.webp",
+    images: [
+      ["01", "AI-powered kids activity platform"],
+      ["02", "One-stop activity matching platform"],
+      ["03", "One platform for personalised activity coordination"],
+      ["04", "Unleash your kid's potential with personalised activities"],
+      ["05", "App download page"],
+    ],
+  },
+  {
+    slug: "fooddash",
+    title: "FoodDash Delivery",
+    subtitle: "Customer app, rider app and restaurant panel",
+    tagline: "A complete food delivery platform: order, pay, cook, deliver, all tracked live.",
+    tags: ["Mobile", "Web"],
+    role: "Full-stack developer: Laravel API, two Flutter apps and the restaurant web panel",
+    stack: ["Flutter", "Laravel 11", "Stripe", "Google Maps", "Firebase FCM", "JWT", "MySQL", "PHPUnit"],
+    summary:
+      "A full multi-vendor food delivery system, from the customer's first tap to the rider's doorstep. Customers browse restaurants, build a cart, share their GPS location and pay with Stripe. Restaurants manage live orders, menus and earnings in a web panel. Riders accept jobs, follow a Google Maps route and confirm pickup and delivery, while the app shares their location every 10 seconds. All three run on one Laravel API with a strict order state machine.",
+    highlights: [
+      "Customer app: restaurant search, menus, cart, \"use my location\" and Stripe payment sheet",
+      "Live order tracking with status updates and push notifications (Firebase FCM)",
+      "Rider app: available jobs, Google Maps route, pickup and delivery confirmation, earnings log",
+      "Live rider GPS shared with the backend every 10 seconds",
+      "Restaurant panel: live orders, menu management, payouts with platform commission",
+      "Order state machine (pending → preparing → picked up → delivered), covered by 44 automated tests",
+    ],
+    videos: [
+      { src: "assets/fooddash/customer.mp4", poster: "assets/fooddash/customer-poster.webp", label: "Customer app: order and pay", phone: true },
+      { src: "assets/fooddash/rider.mp4", poster: "assets/fooddash/rider-poster.webp", label: "Rider app: pickup to delivery", phone: true },
+    ],
+    cover: "assets/fooddash/cover.webp",
+    images: [
+      ["01", "Customer: restaurant menu", "phone"],
+      ["02", "Customer: cart and delivery details", "phone"],
+      ["03", "Customer: live order tracking", "phone"],
+      ["04", "Rider: route to the pickup", "phone"],
+      ["05", "Rider: on the way to the customer", "phone"],
+      ["06", "Rider: delivery log and earnings", "phone"],
+      ["07", "Restaurant panel: dashboard and revenue"],
+      ["08", "Restaurant panel: live orders"],
+      ["09", "Restaurant panel: order detail"],
+      ["10", "Restaurant panel: menu items"],
+      ["11", "Restaurant panel: edit a menu item"],
+      ["12", "Restaurant panel: payouts and commission"],
+      ["13", "Restaurant panel: restaurant profile"],
+    ],
+  },
+  {
+    slug: "saas",
+    title: "Multi-Tenant SaaS",
+    subtitle: "One platform, many companies, Stripe billing",
+    tagline: "One app. Many companies. Each with its own workspace, plan limits and Stripe billing.",
+    tags: ["SaaS", "Mobile", "Web"],
+    role: "Full-stack developer: Laravel API, Vue admin panel and Flutter app",
+    stack: ["Laravel 11", "Vue 3", "Flutter", "Stripe (Cashier)", "JWT", "Pinia", "Tailwind", "Chart.js", "MySQL"],
+    summary:
+      "A production-style multi-tenant SaaS platform: a Laravel API, a Vue 3 super-admin dashboard and a Flutter app for each company's team. Every company gets its own workspace inside one shared database, and every query is scoped to that tenant automatically. Plans are billed through Stripe, and plan limits (team seats, projects) are enforced in both the API and the app, with an upgrade prompt when a team gets close.",
+    highlights: [
+      "Workspace sign-in: each company logs in with its own workspace slug",
+      "Single-database multi-tenancy with automatic tenant scoping on every query",
+      "Stripe subscriptions (Basic, Pro, Enterprise) through Laravel Cashier, with webhooks",
+      "Plan limits and feature gates: seat and project caps with an in-app upgrade flow",
+      "Role-based access: tenant admin, manager and member, plus a separate super admin",
+      "Flutter app with projects and a Kanban task board; Vue admin with MRR, tenants and plans",
+    ],
+    videos: [{ src: "assets/saas/demo.mp4", poster: "assets/saas/demo-poster.webp", label: "Tenant app walkthrough", phone: true }],
+    cover: "assets/saas/cover.webp",
+    images: [
+      ["01", "Sign in with a company workspace", "phone"],
+      ["02", "Workspace dashboard with plan usage", "phone"],
+      ["03", "Projects, with a plan-limit warning", "phone"],
+      ["04", "Upgrade plan", "phone"],
+      ["05", "Kanban task board", "phone"],
+      ["06", "Stripe checkout for the new plan", "phone"],
+      ["07", "Profile with seat and project usage", "phone"],
+      ["08", "Super admin: MRR and tenant signups"],
+      ["09", "Super admin: manage and suspend tenants"],
+      ["10", "Super admin: subscription plans"],
+    ],
+  },
+  {
+    slug: "finance",
+    title: "AI Finance Tracker",
+    subtitle: "Flutter money app with GPT-4o receipts and chat",
+    tagline: "Snap a receipt, ask where the money went, and see a budget problem before it happens.",
+    tags: ["AI", "Mobile"],
+    role: "Full-stack developer: Flutter app, Laravel API and OpenAI integration",
+    stack: ["Flutter", "Dart", "Laravel 11", "PHP 8.3", "OpenAI GPT-4o", "JWT", "fl_chart", "MySQL"],
+    summary:
+      "A cross-platform personal finance app that turns everyday spending into clear answers. Photograph a receipt and GPT-4o Vision fills in the merchant, amount, date and category. Ask questions in plain English, like \"Where did I spend most this month?\", and get answers based on your real transactions. Monthly budgets and a live dashboard show where the money goes. Flutter on iOS and Android, with a Laravel 11 API behind it.",
+    highlights: [
+      "Receipt scanning: GPT-4o Vision reads the merchant, amount, date and category and fills the form",
+      "AI chat that answers questions about your own spending, with suggested questions to start",
+      "Automatic categories suggested as you type a description",
+      "Dashboard with monthly balance, income vs. expense and a spending-by-category chart",
+      "Transactions with month and type filters, swipe to delete and pull to refresh",
+      "Monthly budgets with spent vs. remaining, plus secure JWT login",
+    ],
+    videos: [{ src: "assets/finance/demo.mp4", poster: "assets/finance/demo-poster.webp", label: "App walkthrough", phone: true }],
+    cover: "assets/finance/cover.webp",
+    images: [
+      ["01", "Dashboard: balance and spending by category", "phone"],
+      ["02", "AI chat: ask about your spending", "phone"],
+      ["03", "Add a transaction (or scan a receipt)", "phone"],
+      ["04", "Transactions by month", "phone"],
+      ["05", "Transaction detail with receipt", "phone"],
+      ["06", "Set a monthly budget", "phone"],
+      ["07", "Filter by income or expense", "phone"],
+      ["08", "Sign in", "phone"],
+    ],
+  },
+  {
+    slug: "nexuscrm",
+    title: "NexusCRM",
+    subtitle: "B2B sales CRM and ERP, from lead to paid invoice",
+    tagline: "From lead to paid invoice: pipeline, tasks, invoices, payments and reports in one place.",
+    tags: ["SaaS", "Web"],
+    role: "Full-stack developer",
+    stack: ["Laravel 11", "Vue 3", "Inertia.js", "Filament v3", "Tailwind", "MySQL", "DomPDF"],
+    summary:
+      "NexusCRM is a B2B sales CRM and light ERP. Sales teams manage leads, contacts and companies, move deals through a drag-and-drop pipeline and track tasks on a calendar. Finance builds invoices with live totals and tax, emails them as PDFs, records partial payments and watches overdue balances in an aging report. Four roles with granular permissions keep everyone in their lane, and a Filament panel handles users and settings.",
+    highlights: [
+      "Leads, contacts and companies with a 360° view and activity history",
+      "Drag-and-drop deal pipeline with won/lost tracking and one-click lead conversion",
+      "Tasks and meetings on a calendar, with priority and overdue tracking",
+      "Invoice builder with live totals, PDF generation and queued email delivery",
+      "Payments, accounts-receivable aging (30/60/90+) and a weighted sales forecast",
+      "Four roles with granular permissions; Filament admin panel",
+    ],
+    videos: [{ src: "assets/nexuscrm/demo.mp4", poster: "assets/nexuscrm/demo-poster.webp", label: "Product walkthrough" }],
+    cover: "assets/nexuscrm/cover.webp",
+    images: [
+      ["01", "Dashboard"],
+      ["02", "Deal pipeline (Kanban)"],
+      ["03", "Deal detail with stages and activity"],
+      ["04", "Leads with source and status"],
+      ["05", "Companies"],
+      ["06", "Contacts"],
+      ["07", "Invoices"],
+      ["08", "Accounts receivable aging"],
+      ["09", "Calendar"],
+      ["10", "Pipeline settings"],
+    ],
+  },
+];
